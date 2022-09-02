@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="UWPDemo1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPDemo1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignWidth="800.600">
+
+    <ScrollViewer>
+        <StackPanel>
+            <CommandBar DefaultLabelPosition="Right" OverflowButtonVisibility="Collapsed">
+                <CommandBar.Content>
+                    <TextBlock x:Name="MyMessage" Text="Cognitive Demo" Margin="12,14"/>
+                </CommandBar.Content>
+                <AppBarButton Icon="Pictures" Label="Pick" Click="OnSelectPicture"/>
+                <AppBarButton Icon="Camera" Label="Take picture" Click="OnTakePicture"/>
+                <AppBarButton Icon="Setting" Label="Setting">
+                    <Button.Flyout>
+                        <MenuFlyout Placement="Bottom">
+                            <ToggleMenuFlyoutItem x:Name="IsOCREnabled" Text="apply OCR" IsChecked="True" Click="OnApplyOCR"/>
+                            <MenuFlyoutItem Text="Open Config" Click="OnOpenConfig"/>
+                            <MenuFlyoutSeparator />
+                            <MenuFlyoutItem Text="About" Click="OnAbout"/>
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </AppBarButton>
+            </CommandBar>
+            <Grid x:Name="MyGrid" BorderBrush="Silver" BorderThickness="12" CornerRadius="12" Padding="12">
+                <Image x:Name="MyPicture" HorizontalAlignment="Center" Margin="10,10,10,10" VerticalAlignment="Center" />
+            </Grid>
+            <Grid x:Name="MyGrid2" BorderBrush="Orange" BorderThickness="12" CornerRadius="12" Padding="12">
+                <TextBox x:Name="MyText" AcceptsReturn="True" HorizontalAlignment="Left" Margin="10,10,10,10" VerticalAlignment="Top" />
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+
+</Page>
