@@ -242,7 +242,11 @@ namespace UWPDemo1
             {
                 foreach (Line line in page.Lines)
                 {
+                    //byte[] data = System.Text.Encoding.Unicode.GetBytes(line.Text);
+
                     Debug.WriteLine(line.Text);
+                    //Debug.WriteLine(BitConverter.ToString(data));
+
                 }
             }
         }
