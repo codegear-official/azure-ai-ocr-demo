@@ -101,7 +101,7 @@ Debug ƒƒjƒ…[‚©‚çuStart Debuggingv‚ð‘I‚Ô‚©AF5ƒL[‚ð‰Ÿ‚·‚ÆƒfƒoƒbƒOŽÀs‚ðŠJŽn‚
 
 uUWPDemo1_1.0.X.0_x86_x64_arm64.cerv‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚ÄŠJ‚­‚ÆAƒ_ƒCƒAƒƒO‚ª•\Ž¦‚³‚êuØ–¾‘‚ÌƒCƒ“ƒXƒg[ƒ‹...vƒ{ƒ^ƒ“‚ª•\Ž¦‚³‚ê‚é‚Ì‚ÅA‚±‚ê‚ðƒNƒŠƒbƒN‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·BƒCƒ“ƒXƒg[ƒ‹æ‚Í•K‚¸uƒ[ƒJƒ‹ƒRƒ“ƒsƒ…[ƒ^[v‚ÌuM—Š‚³‚ê‚½ƒ‹[ƒgØ–¾‹@ŠÖv‚ÌêŠ‚É‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 
-ƒCƒ“ƒXƒg[ƒ‹Œã‚ÉuƒRƒ“ƒsƒ…[ƒ^[Ø–¾‘‚ÌŠÇ—vƒAƒvƒŠ‚ðŽÀs‚µAuM—Š‚³‚ê‚½ƒ‹[ƒgØ–¾‹@ŠÖv‚Ì‰º‚ÌuØ–¾‘v‚Ìˆê——‚Ì’†‚É”­sæ‚Æ”­sŽÒ‚ª‹¤‚Éuhronv‚É‚È‚Á‚Ä‚¢‚éØ–¾‘‚ªŒ©‚Â‚©‚é‚ÆŽv‚¢‚Ü‚·B‚±‚ÌƒeƒXƒg—pƒIƒŒƒIƒŒØ–¾‘‚Í—LŒøŠúŒÀ‚ª1”N‚ÉÝ’è‚³‚ê‚Ä‚¢‚é‚Ì‚ÅAØ–¾‚ª—LŒø‚È‚Ì‚ÍØ–¾‘¶¬ŒãAÅ‘å1”NŠÔ‚Æ‚¢‚¤‚±‚Æ‚É‚È‚è‚Ü‚·B
+ƒCƒ“ƒXƒg[ƒ‹Œã‚ÉuƒRƒ“ƒsƒ…[ƒ^[Ø–¾‘‚ÌŠÇ—vŠÇ—ƒRƒ“ƒ\[ƒ‹ƒAƒvƒŠ‚ðŽÀs‚µAuM—Š‚³‚ê‚½ƒ‹[ƒgØ–¾‹@ŠÖv‚Ì‰º‚ÌuØ–¾‘v‚Ìˆê——‚Ì’†‚É”­sæ‚Æ”­sŽÒ‚ª‹¤‚Éuhronv‚É‚È‚Á‚Ä‚¢‚éØ–¾‘‚ªŒ©‚Â‚©‚é‚ÆŽv‚¢‚Ü‚·B‚±‚ÌƒeƒXƒg—pƒIƒŒƒIƒŒØ–¾‘‚Í—LŒøŠúŒÀ‚ª1”N‚ÉÝ’è‚³‚ê‚Ä‚¢‚é‚Ì‚ÅAØ–¾‚ª—LŒø‚È‚Ì‚ÍØ–¾‘¶¬ŒãAÅ‘å1”NŠÔ‚Æ‚¢‚¤‚±‚Æ‚É‚È‚è‚Ü‚·B
 
 2. ƒAƒvƒŠ‚ðƒCƒ“ƒXƒg[ƒ‹
 
@@ -138,8 +138,8 @@ Debug ƒƒjƒ…[‚©‚çuStart Debuggingv‚ð‘I‚Ô‚©AF5ƒL[‚ð‰Ÿ‚·‚ÆƒfƒoƒbƒOŽÀs‚ðŠJŽn‚
 
 3. ÅŒã‚É .msixbundle ƒpƒbƒP[ƒW‚ðƒCƒ“ƒXƒg[ƒ‹
 
-PS D:\TEMP\UWPDemo1\Dependencies\arm64> Add-AppxPackage .\UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle
-PS D:\TEMP\UWPDemo1\Dependencies\arm64>
+    PS D:\TEMP\UWPDemo1\Dependencies\arm64> Add-AppxPackage .\UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle
+    PS D:\TEMP\UWPDemo1\Dependencies\arm64>
 
 ƒCƒ“ƒXƒg[ƒ‹Œã‚Íƒ^ƒXƒNƒo[‚ÌŒŸõ‚Å UWPDemo1 ‚ðŒŸõ‚µŽÀs‚µ‚Ü‚·B
 
@@ -150,9 +150,9 @@ PS D:\TEMP\UWPDemo1\Dependencies\arm64>
 
 # ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹•û–@
 
-uÝ’èvƒAƒvƒŠ‚ÌuƒAƒvƒŠ‚Æ‹@”\v‚ÅŒŸõ—“‚É UWPDemo1 ‚ð“ü—Í‚µ‚ÄŒŸõ‚µ‚½ŒãAuƒAƒ“ƒCƒ“ƒXƒg[ƒ‹v‚ð‘I‘ð‚µ‚ÄƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·B
+uÝ’èvƒAƒvƒŠ‚ÌuƒAƒvƒŠ‚Æ‹@”\v‚ÅŒŸõ—“‚É UWPDemo1 ‚ð“ü—Í‚µ‚ÄŒŸõ‚µ‚ÄŒ©‚Â‚¯‚½ŒãAuƒAƒ“ƒCƒ“ƒXƒg[ƒ‹v‚ð‘I‘ð‚µ‚ÄƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·B
 
-‚à‚µØ–¾‘‚à•s—v‚Èê‡‚ÍuƒRƒ“ƒsƒ…[ƒ^[Ø–¾‘‚ÌŠÇ—vƒAƒvƒŠ‚Å“–ŠYØ–¾‘‚ð’T‚µ‚Äíœ‚µ‚Ü‚·B
+‚à‚µƒCƒ“ƒXƒg[ƒ‹‚µ‚½ƒIƒŒƒIƒŒØ–¾‘‚à•s—v‚Èê‡‚ÍuƒRƒ“ƒsƒ…[ƒ^[Ø–¾‘‚ÌŠÇ—vŠÇ—ƒRƒ“ƒ\[ƒ‹ƒAƒvƒŠ‚Å“–ŠYØ–¾‘‚ð’T‚µ‚Äíœ‚µ‚Ü‚·B
 
 ---
 
