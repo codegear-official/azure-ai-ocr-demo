@@ -100,6 +100,10 @@ Debug メニューから「Start Debugging」を選ぶか、F5キーを押すと
 - UWPDemo1_1.0.4.0_XXX.appxsym : デバッグシンボルファイル
 - Dependencies : 依存モジュールの含まれるディレクトリ
 
+もしビルド済みのバイナリパッケージを参照したい場合は、以下の Releases からダウンロードすることも可能です。
+
+https://github.com/codegear-official/azure-ai-ocr-demo/releases/download/1.0.4.0/UWPDemo1_1.0.4.0_Test.zip
+
 # 別PCにコピーしてインストール
 
 通常の Windowsでは、パッケージのうち「UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle」「UWPDemo1_1.0.X.0_x86_x64_arm64.cer」の2つのファイルをコピーしておくとサイドローディング用のインストールができます。 (ついでにあらかじめパラメータを設定した appsettings.json もコピーしておくと便利)
