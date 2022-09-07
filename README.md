@@ -1,135 +1,136 @@
-# azure-ai-ocr-demo
+﻿# azure-ai-ocr-demo
 Windows UWP project for demonstrating Microsoft Azure Cognitive Read API
 
-���̃v���W�F�N�g��Microsoft Azure �� Cognitive Services �̂����AComputer Vision OCR �����s����GUI�f���v���O�����ł��B
+このプロジェクトはMicrosoft Azure の Cognitive Services のうち、Computer Vision OCR を実行するGUIデモプログラムです。
 
-C# �L�q��UWP�v���W�F�N�g�ŁA.NET Native �ɂ�� x86/x64/ARM64 �� .msixbundle �t�@�C���𐶐����܂��B
+C# 記述のUWPプロジェクトで、.NET Native により x86/x64/ARM64 の .msixbundle ファイルを生成します。
 
 
-# �J����
+# 開発環境
 
-Windows 10 version 21H2 (64bit) ��� Visual Studio 2019 version 16.11 ���C���X�g�[�����ĊJ�����܂����B
+Windows 10 version 21H2 (64bit) 上に Visual Studio 2019 version 16.11 をインストールして開発しました。
 
-����Visual Studio 2019 Comunity Edition�𗘗p�������ꍇ�́A���ݒʏ�� Visual Studio Community �̃y�[�W����̓_�E�����[�h�ł��Ȃ��Ȃ��Ă��܂��B
-������Visual Studio Dev Essentials �v���O�����ɉ�������ƁAVisual Studio Subscription�T�C�g����_�E�����[�h�\�Ȃ̂Ŏ����Ă݂Ă��������B
+もしVisual Studio 2019 Comunity Editionを利用したい場合は、現在通常の [Visual Studio Community のページ](https://visualstudio.microsoft.com/ja/vs/community/)からはダウンロードできなくなっています。
+無料のVisual Studio Dev Essentials プログラムに加入すると、Visual Studio Subscriptionサイトからダウンロード可能なので試してみてください。
 
 Visual Studio Dev Essentials
 https://visualstudio.microsoft.com/ja/dev-essentials/
 
-�_�E�����[�h�y�[�W (�v���O�C��)
+ダウンロードページ (要ログイン)
 https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019
 
-Visual Studio Installer �ł� ���[�N���[�h�Ƃ��āu���j�o�[�T��Windows�v���b�g�t�H�[���J���v�u.NET�f�X�N�g�b�v�J���v��I�����܂��B
-�܂��A�ʂ̃R���|�[�l���g�Ƃ��āuGit for Windows�v��I��ŃC���X�g�[�����Ă����ƕ֗��ł��B
+Visual Studio Installer では ワークロードとして「ユニバーサルWindowsプラットフォーム開発」「.NETデスクトップ開発」を選択します。
+また、個別のコンポーネントとして「Git for Windows」を選んでインストールしておくと便利です。
 
-���̃h�L�������g�ł̓��j���[�Ȃǂ�UI���p��ŕ\�����Ă��܂��B�����p��\�����s���ꍇ�ɂ́u����p�b�N�v�Łu�p��v��ǉ����ăC���X�g�[��������AVisual Studio IDE�� Tools���j���[�� Options �ō��ʐݒ��\�����AEnglish��I���IDE���ċN������Ɖp��UI�ɂȂ�܂��B
+このドキュメントではメニューなどのUIを英語で表示しています。またMS Learnのページなど、未翻訳のページでは英語版UIで説明されます。
+もし英語表示を行う場合には「言語パック」で「英語」を追加してインストールした後、Visual Studio IDEの Toolsメニューの Options で国別設定を表示し、Englishを選んでIDEを再起動すると英語UIになります。
 
-# Azure �|�[�^���Ń��\�[�X���쐬���AENDPOINT����KEY�����擾����
+# Azure ポータルでリソースを作成し、ENDPOINT情報とKEY情報を取得する
 
-�ȉ����Q�l��[Azure �|�[�^��](https://portal.azure.com/#create/Microsoft.CognitiveServicesComputerVision)��Azure Cognitive Services�̃��\�[�X���쐬���܂��B
+以下を参考に[Azure ポータル](https://portal.azure.com/#create/Microsoft.CognitiveServicesComputerVision)でAzure Cognitive Servicesのリソースを作成します。
 
 https://docs.microsoft.com/ja-jp/azure/cognitive-services/computer-vision/quickstarts-sdk/client-library?tabs=visual-studio&pivots=programming-language-csharp#prerequisites
 
-���\�[�X���쐬������A�u�L�[�ƃG���h�|�C���g�v�ŕ\������鍀�ڂ̂���
+リソースを作成したら、「キーとエンドポイント」で表示される項目のうち
 
-- �L�[1 �܂��� �L�[2 (�ǂ���ł��悢)
-- �G���h�|�C���g
+- キー1 または キー2 (どちらでもよい)
+- エンドポイント
 
-��2�̏����������Ă����܂��B
+の2つの情報をメモしておきます。
 
-�ڂ������@�͈ȉ��̃g���[�j���O���K������Ă݂邱�Ƃł������ł��܂��B
+詳しい方法は以下のトレーニング演習をやってみることでも理解できます。
 
-[Computer Vision �T�[�r�X���g�p���ĉ摜��h�L�������g���̃e�L�X�g��ǂݎ��](https://docs.microsoft.com/ja-jp/learn/modules/read-text-images-documents-with-computer-vision-service/)
+[Computer Vision サービスを使用して画像やドキュメント内のテキストを読み取る](https://docs.microsoft.com/ja-jp/learn/modules/read-text-images-documents-with-computer-vision-service/)
 
 
-# GitHub����\�[�X�R�[�h�v���W�F�N�g�� clone ���ĊJ��
+# GitHubからソースコードプロジェクトを clone して開く
 
-Visual Studio 2019 ���N����A�uclone a repository�v��I��� https://github.com/codegear-official/azure-ai-ocr-demo.git ����͂���� ���[�J����clone������v���W�F�N�g���J���܂��B
+Visual Studio 2019 を起動後、「clone a repository」を選んで https://github.com/codegear-official/azure-ai-ocr-demo.git を入力すると ローカルにcloneした後プロジェクトが開きます。
 
 https://github.com/codegear-official/azure-ai-ocr-demo.git
 
-�r���h Configuration�̑I���� �uDebug�v�ux64�v��I��� Build ���j���[����ubuild UWPDemo1�v�����s����ƃr���h�J�n���܂��B���΂炭���ăr���h��������ƁAOutput �E�C���h�E��Build��
+ビルド Configurationの選択で 「Debug」「x64」を選んで Build メニューから「build UWPDemo1」を実行するとビルド開始します。しばらくしてビルド成功すると、Output ウインドウのBuildで
 
     ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
 
-�̂悤�ɕ\������A�r���h���������܂��B
+のように表示され、ビルドが成功します。
 
-# �J��PC�Ńf�o�b�O���s
+# 開発PCでデバッグ実行
 
-Debug ���j���[����uStart Debugging�v��I�Ԃ��AF5�L�[�������ƃf�o�b�O���s���J�n���܂��B����̓f�o�b�O�V���{�����_�E�����[�h����̂ŁA�N���Ɏ��Ԃ�������܂� (�X�L�b�v���\)�B
+Debug メニューから「Start Debugging」を選ぶか、F5キーを押すとデバッグ実行を開始します。初回はデバッグシンボルをダウンロードするので、起動に時間がかかります (スキップも可能)。
 
-�N��������܂� �uSetting�v���j���[����uOpen Config�v��I��Őݒ�t�@�C�� appsettings.json �̂���f�B���N�g�����J���܂��B
+起動したらまず 「Setting」メニューから「Open Config」を選んで設定ファイル appsettings.json のあるディレクトリを開きます。
 
-�����A�ȉ��̓��e�� Json�t�@�C���������Ă���̂ŁA���ۂɗ��p�\�� ENDPOINT��KEY���ɏ��������܂��B
+当初、以下の内容の Jsonファイルが入っているので、実際に利用可能な ENDPOINTとKEY情報に書き換えます。
 
     {
         "CognitiveServicesEndpoint": "YOUR_COGNITIVE_SERVICES_ENDPOINT",
         "CognitiveServiceKey": "YOUR_COGNITIVE_SERVICES_KEY"
     }
     
-**�ύX��̗�**
+**変更後の例**
 
     {
         "CognitiveServicesEndpoint": "https://XXXXXXXX.cognitiveservices.azure.com/",
         "CognitiveServiceKey": "2c62dea8fc12489f8300f5bcbbe0e493"
     }
 
-�t�@�C����������������Explorer�E�C���h�E���N���[�Y���܂��B
+ファイルを書き換えたらExplorerウインドウをクローズします。
 
-���̌�A�uPick�v��I��� OCR�������s���摜�t�@�C����I�����邩�B�uTake Picture�v��I��ŁA�J�����f�o�C�X����OCR�����s����摜���L���v�`�����܂��B
+この後、「Pick」を選んで OCR処理を行う画像ファイルを選択するか。「Take Picture」を選んで、カメラデバイスからOCRを実行する画像をキャプチャします。
 
-����OCR����������������A�R�}���h�o�[��� SUCCESS �̕������\������܂��B
-�摜���X�N���[�����ĉ��̕�����\������ƁA�F�����ꂽ�����񂪕\������Ă��邱�Ƃ��킩��܂��B
+もしOCR処理が成功したら、コマンドバー上に SUCCESS の文字が表示されます。
+画像をスクロールして下の部分を表示すると、認識された文字列が表示されていることがわかります。
 
-�E�C���h�E�E��̃N���[�Y�{�^�� (�~��) ���N���b�N����ƁA�f���A�v�����I�����܂��B
+ウインドウ右上のクローズボタン (×印) をクリックすると、デモアプリを終了します。
 
-# ����PC�Ŏ��s���邽�߂Ƀp�b�P�[�W���r���h
+# 他のPCで実行するためにパッケージをビルド
 
-��������ɖ��Ȃ���΁AProject���j���[�́uPublish�v����uCreate App Packages...�v��I��Ńp�b�P�[�W���r���h���܂��B
+もし動作に問題なければ、Projectメニューの「Publish」から「Create App Packages...」を選んでパッケージをビルドします。
 
-���̃_�C�A���O�𗘗p���� Microsoft Store�ɒ�o���邽�߂̃p�b�P�[�W���쐬������A�T�C�h���[�f�B���O�p��.msixbundle �t�@�C���Ȃǂ��r���h���邱�Ƃ��ł��܂��B
+このダイアログを利用して Microsoft Storeに提出するためのパッケージを作成したり、サイドローディング用の.msixbundle ファイルなどをビルドすることができます。
 
-�T�C�h���[�f�B���O�p�̃p�b�P�[�W���r���h����ꍇ�A�ݒ�_�C�A���O�ŁuSideloading�v��I���� Next�����s�B
-���̉�ʂŏ����p�̏ؖ�����ݒ肵�܂��B�v���W�F�N�g���ɂ͂�����ō쐬���� .pfx�t�@�C�����܂܂�Ă��܂����A�v���W�F�N�g����폜���ĐV�K��.pfx���쐬���邱�Ƃ��\�ł��BNext�������܂��B
+サイドローディング用のパッケージをビルドする場合、設定ダイアログで「Sideloading」を選択し Nextを実行。
+次の画面で署名用の証明書を設定します。プロジェクト中にはこちらで作成した .pfxファイルが含まれていますが、プロジェクトから削除して新規に.pfxを作成することも可能です。Nextを押します。
 
-���̉�ʂŃo�[�W��������уp�b�P�[�W�Ɋ܂߂�CPU�^�C�v���`�F�b�N���Ďw�肵�܂��B���ꂼ���CPU�^�C�v�ŁA�Ȃ���������Ԃ�Debug �r���h���I������Ă���̂ŁA�蓮�Ń`�F�b�N�̓����Ă��鍀�ڂ��ׂĂ�Release �r���h�̑I���ɕύX���ACreate �������܂��B���΂炭����ƃp�b�P�[�W���r���h����A�ŏI�I�Ƀr���h���ʂ̃t�@�C�����܂܂��f�B���N�g�����J�������N���\�������̂ŁA������N���b�N�����Explorer�ňȉ��̃t�@�C�����܂܂��f�B���N�g�����\������܂��B
+次の画面でバージョンおよびパッケージに含めるCPUタイプをチェックして指定します。それぞれのCPUタイプで、なぜか初期状態でDebug ビルドが選択されているので、手動でチェックの入っている項目すべてをRelease ビルドの選択に変更し、Create を押します。しばらくするとパッケージがビルドされ、最終的にビルド結果のファイルが含まれるディレクトリを開くリンクが表示されるので、これをクリックするとExplorerで以下のファイルが含まれるディレクトリが表示されます。
 
-- UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle : �C���X�g�[���\�ȃp�b�P�[�W�t�@�C��
-- UWPDemo1_1.0.X.0_x86_x64_arm64.cer : �ؖ����t�@�C�� (������I���I���ؖ���)
-- UWPDemo1_1.0.4.0_XXX.appxsym : �f�o�b�O�V���{���t�@�C��
-- Dependencies : �ˑ����W���[���̊܂܂��f�B���N�g��
+- UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle : インストール可能なパッケージファイル
+- UWPDemo1_1.0.X.0_x86_x64_arm64.cer : 証明書ファイル (いわゆるオレオレ証明書)
+- UWPDemo1_1.0.4.0_XXX.appxsym : デバッグシンボルファイル
+- Dependencies : 依存モジュールの含まれるディレクトリ
 
-# ��PC�ɃR�s�[���ăC���X�g�[��
+# 別PCにコピーしてインストール
 
-�ʏ�� Windows�ł́A�p�b�P�[�W�̂����uUWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle�v�uUWPDemo1_1.0.X.0_x86_x64_arm64.cer�v��2�̃t�@�C�����R�s�[���Ă����ƃT�C�h���[�f�B���O�p�̃C���X�g�[�����ł��܂��B (���łɂ��炩���߃p�����[�^��ݒ肵�� appsettings.json ���R�s�[���Ă����ƕ֗�)
+通常の Windowsでは、パッケージのうち「UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle」「UWPDemo1_1.0.X.0_x86_x64_arm64.cer」の2つのファイルをコピーしておくとサイドローディング用のインストールができます。 (ついでにあらかじめパラメータを設定した appsettings.json もコピーしておくと便利)
 
-1. �I���I���ؖ������ؖ����X�g�A�ɃC���X�g�[��
+1. オレオレ証明書を証明書ストアにインストール
 
-�uUWPDemo1_1.0.X.0_x86_x64_arm64.cer�v���_�u���N���b�N���ĊJ���ƁA�_�C�A���O���\������u�ؖ����̃C���X�g�[��...�v�{�^�����\�������̂ŁA������N���b�N���ăC���X�g�[�����܂��B�C���X�g�[����͕K���u���[�J���R���s���[�^�[�v�́u�M�����ꂽ���[�g�ؖ��@�ցv�̏ꏊ�ɂ���K�v������܂��B
+「UWPDemo1_1.0.X.0_x86_x64_arm64.cer」をダブルクリックして開くと、ダイアログが表示され「証明書のインストール...」ボタンが表示されるので、これをクリックしてインストールします。インストール先は必ず「ローカルコンピューター」の「信頼されたルート証明機関」の場所にする必要があります。
 
-�C���X�g�[����Ɂu�R���s���[�^�[�ؖ����̊Ǘ��v�Ǘ��R���\�[���A�v�������s���A�u�M�����ꂽ���[�g�ؖ��@�ցv�̉��́u�ؖ����v�̈ꗗ�̒��ɔ��s��Ɣ��s�҂����Ɂuhiron�v�ɂȂ��Ă���ؖ�����������Ǝv���܂��B���̃e�X�g�p�I���I���ؖ����͗L��������1�N�ɐݒ肳��Ă���̂ŁA�ؖ����L���Ȃ̂͏ؖ���������A�ő�1�N�ԂƂ������ƂɂȂ�܂��B
+インストール後に「コンピューター証明書の管理」管理コンソールアプリを実行し、「信頼されたルート証明機関」の下の「証明書」の一覧の中に発行先と発行者が共に「hiron」になっている証明書が見つかると思います。このテスト用オレオレ証明書は有効期限が1年に設定されているので、証明が有効なのは証明書生成後、最大1年間ということになります。
 
-2. �A�v�����C���X�g�[��
+2. アプリをインストール
 
-�uUWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle�v���_�u���N���b�N����ƁA�A�v���C���X�g�[���[������������܂��B�u�C���X�g�[���v�����s����ƃC���X�g�[������A����Ɂu�������o������N���v�̃`�F�b�N�������Ă�����A�C���X�g�[���I����ɂ����ɃA�v���������オ��܂��B
+「UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle」をダブルクリックすると、アプリインストーラーが立ちあがります。「インストール」を実行するとインストールされ、さらに「準備が出来たら起動」のチェックが入っていたら、インストール終了後にすぐにアプリが立ち上がります。
 
-# LTSC�̏ꍇ�̃C���X�g�[�����@
+# LTSCの場合のインストール方法
 
-�uWindows 10 Enterprise LTSC�v�ƁuWindows 10 IoT Enterprise LTSC�v�̏ꍇ�́AOS���ɃA�v���C���X�g�[���[���̂��܂܂�Ă��Ȃ����߁AExplorer�� .msixbundle �t�@�C�����_�u���N���b�N���Ă������N�����C���X�g�[���o���܂���B
+「Windows 10 Enterprise LTSC」と「Windows 10 IoT Enterprise LTSC」の場合は、OS側にアプリインストーラー自体が含まれていないため、Explorerで .msixbundle ファイルをダブルクリックしても何も起きずインストール出来ません。
 
-���̂悤�ȏꍇ�A**�Ǘ��҃��[�h��** PowerShell�ŁuAdd-AppxPackage�v�R�}���h�𗘗p���ăC���X�g�[�����邱�Ƃ��ł��܂��B�������A���̎蓮�C���X�g�[���̕��@�ł͈ˑ��֌W���W���[�����蓮�ŌʂɃC���X�g�[������K�v������܂��B�ȉ��̎菇�ŃC���X�g�[�����܂��B
+このような場合、**管理者モードの** PowerShellで「Add-AppxPackage」コマンドを利用してインストールすることができます。ただし、この手動インストールの方法では依存関係モジュールも手動で個別にインストールする必要があります。以下の手順でインストールします。
 
-1. �I���I���ؖ����t�@�C���̃C���X�g�[��
+1. オレオレ証明書ファイルのインストール
 
-����� LTSC�ȊO�̏ꍇ�Ɠ������@�ŃC���X�g�[�����܂��B
+これは LTSC以外の場合と同じ方法でインストールします。
 
-2. �ˑ��֌W���W���[���� Dependencies �f�B���N�g������R�s�[���Ă��ăC���X�g�[��
+2. 依存関係モジュールを Dependencies ディレクトリからコピーしてきてインストール
 
-��̓I�ɂ͈ȉ��̂悤�Ɏ��s���܂��B (�ȉ���ARM64�̏ꍇ)
+具体的には以下のように実行します。 (以下はARM64の場合)
 
     PS D:\TEMP\UWPDemo1\Dependencies\arm64> dir
 
-        �f�B���N�g��: D:\TEMP\UWPDemo1\Dependencies\arm64
+        ディレクトリ: D:\TEMP\UWPDemo1\Dependencies\arm64
 
     Mode                 LastWriteTime         Length Name
     ----                 -------------         ------ ----
@@ -142,24 +143,30 @@ Debug ���j���[����uStart Debugging�v��I�Ԃ��AF5�L�[�������ƃf�o�b�O���s���J�n�
     PS D:\TEMP\UWPDemo1\Dependencies\arm64> Add-AppxPackage .\Microsoft.NET.Native.Framework.2.2.appx
     PS D:\TEMP\UWPDemo1\Dependencies\arm64>
 
-3. �Ō�� .msixbundle �p�b�P�[�W���C���X�g�[��
+3. 最後に .msixbundle パッケージをインストール
+
+以下のように実行します。
 
     PS D:\TEMP\UWPDemo1\Dependencies\arm64> Add-AppxPackage .\UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle
     PS D:\TEMP\UWPDemo1\Dependencies\arm64>
 
-�C���X�g�[����̓^�X�N�o�[�̌����� UWPDemo1 �����������s���܂��B
+インストール後はタスクバーの検索で UWPDemo1 を検索し実行します。
 
-�������ALTSC�̏ꍇ�uWindows �J�����v�A�v�������݂��Ȃ����߁A�uTake Picture�v�����s���Ă��J�����ł̃L���v�`���͓��삵�܂���B
-���炩�̕��@�ŁuWindows �J�����v�A�v�����C���X�g�[������΁uTake Picture�v�͓��삵�܂��B���邢�� (LTSC�ł͂Ȃ�) SAC�ł����Microsoft Store����уv���C���X�g�[����Store�A�v�������݂���̂ŁA�ʏ��Windows�Ɠ��l�ɓ��삵�܂��B
+ただし、LTSCの場合「Windows カメラ」アプリも存在しないため、「Take Picture」を実行してもカメラでのキャプチャは動作しません。
+何らかの方法で「Windows カメラ」アプリをインストールすれば「Take Picture」は動作します。
 
-[Windows Camera �A�v��](https://www.microsoft.com/store/productId/9WZDNCRFJBBG) 
+[Windows Camera アプリ](https://www.microsoft.com/store/productId/9WZDNCRFJBBG) 
 
-# �A���C���X�g�[�����@
+あるいは (LTSCではなく) SAC 21H2 であればMicrosoft Storeアプリおよびプリインストールの各Storeアプリも存在するので、通常のWindows 10と同様に動作します。
 
-�u�ݒ�v�A�v���́u�A�v���Ƌ@�\�v�Ō������� UWPDemo1 ����͂��Č������Č�������A�u�A���C���X�g�[���v��I�����ăA���C���X�g�[�����܂��B
+[Windows 10 長期サービス チャネル (LTSC) 次期リリースについて](https://blogs.windows.com/japan/2021/02/25/the-next-windows-10-long-term-servicing-channel-ltsc-release/)
 
-�����C���X�g�[�������I���I���ؖ������s�v�ȏꍇ�́u�R���s���[�^�[�ؖ����̊Ǘ��v�Ǘ��R���\�[���A�v���œ��Y�ؖ�����T���č폜���܂��B
+# アンインストール方法
+
+「設定」アプリの「アプリと機能」で検索欄に UWPDemo1 を入力して検索して見つけた後、「アンインストール」を選択してアンインストールします。
+
+もしインストールしたオレオレ証明書も不要な場合は「コンピューター証明書の管理」管理コンソールアプリで当該証明書を探して削除します。
 
 ---
 
-[README.md] version 1.0.4 / 2022�N9��
+[README.md] version 1.0.4 / 2022年9月
