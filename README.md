@@ -8,7 +8,10 @@ C# ‹Lq‚ÌUWPƒvƒƒWƒFƒNƒg‚ÅA.NET Native ‚É‚æ‚è x86/x64/ARM64 ‚Ì .msixbundle ƒtƒ@
 
 # ŠJ”­ŠÂ‹«
 
-Windows 10 version 21H2 (64bit) ã‚É Visual Studio 2019 version 16.11 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚ÄŠJ”­‚µ‚Ü‚µ‚½B‚à‚µVisual Studio 2019 Comunity Edition‚ð—˜—p‚µ‚½‚¢ê‡‚ÍA–³—¿‚ÌVisual Studio Dev Essentials ƒvƒƒOƒ‰ƒ€‚É‰Á“ü‚·‚é‚ÆAVisual Studio SubscriptionƒTƒCƒg‚©‚çƒ_ƒEƒ“ƒ[ƒh‰Â”\‚Å‚·B
+Windows 10 version 21H2 (64bit) ã‚É Visual Studio 2019 version 16.11 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚ÄŠJ”­‚µ‚Ü‚µ‚½B
+
+‚à‚µVisual Studio 2019 Comunity Edition‚ð—˜—p‚µ‚½‚¢ê‡‚ÍAŒ»Ý’Êí‚Ì Visual Studio Community ‚Ìƒy[ƒW‚©‚ç‚Íƒ_ƒEƒ“ƒ[ƒh‚Å‚«‚È‚­‚È‚Á‚Ä‚¢‚Ü‚·B
+–³—¿‚ÌVisual Studio Dev Essentials ƒvƒƒOƒ‰ƒ€‚É‰Á“ü‚·‚é‚ÆAVisual Studio SubscriptionƒTƒCƒg‚©‚çƒ_ƒEƒ“ƒ[ƒh‰Â”\‚È‚Ì‚ÅŽŽ‚µ‚Ä‚Ý‚Ä‚­‚¾‚³‚¢B
 
 Visual Studio Dev Essentials
 https://visualstudio.microsoft.com/ja/dev-essentials/
@@ -16,7 +19,10 @@ https://visualstudio.microsoft.com/ja/dev-essentials/
 ƒ_ƒEƒ“ƒ[ƒhƒy[ƒW (—vƒƒOƒCƒ“)
 https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019
 
-Visual Studio Installer ‚Å‚Í ƒ[ƒNƒ[ƒh‚Æ‚µ‚Äuƒ†ƒjƒo[ƒTƒ‹Windowsƒvƒ‰ƒbƒgƒtƒH[ƒ€ŠJ”­vu.NETƒfƒXƒNƒgƒbƒvŠJ”­v‚ð‘I‘ð‚µ‚Ü‚·B‚Ü‚½AŒÂ•Ê‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚Æ‚µ‚ÄuGit for Windowsv‚ð‘I‚ñ‚ÅƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚¨‚­‚Æ•Ö—˜‚Å‚·B
+Visual Studio Installer ‚Å‚Í ƒ[ƒNƒ[ƒh‚Æ‚µ‚Äuƒ†ƒjƒo[ƒTƒ‹Windowsƒvƒ‰ƒbƒgƒtƒH[ƒ€ŠJ”­vu.NETƒfƒXƒNƒgƒbƒvŠJ”­v‚ð‘I‘ð‚µ‚Ü‚·B
+‚Ü‚½AŒÂ•Ê‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚Æ‚µ‚ÄuGit for Windowsv‚ð‘I‚ñ‚ÅƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚¨‚­‚Æ•Ö—˜‚Å‚·B
+
+‚±‚ÌƒhƒLƒ…ƒƒ“ƒg‚Å‚Íƒƒjƒ…[‚È‚Ç‚ÌUI‚ð‰pŒê‚Å•\Ž¦‚µ‚Ä‚¢‚Ü‚·B‚à‚µ‰pŒê•\Ž¦‚ðs‚¤ê‡‚É‚ÍuŒ¾ŒêƒpƒbƒNv‚Åu‰pŒêv‚ð’Ç‰Á‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚µ‚½ŒãAVisual Studio IDE‚Ì Toolsƒƒjƒ…[‚Ì Options ‚Å‘•ÊÝ’è‚ð•\Ž¦‚µAEnglish‚ð‘I‚ñ‚ÅIDE‚ðÄ‹N“®‚·‚é‚Æ‰pŒêUI‚É‚È‚è‚Ü‚·B
 
 # Azure ƒ|[ƒ^ƒ‹‚ÅƒŠƒ\[ƒX‚ðì¬‚µAENDPOINTî•ñ‚ÆKEYî•ñ‚ðŽæ“¾‚·‚é
 
@@ -79,9 +85,9 @@ Debug ƒƒjƒ…[‚©‚çuStart Debuggingv‚ð‘I‚Ô‚©AF5ƒL[‚ð‰Ÿ‚·‚ÆƒfƒoƒbƒOŽÀs‚ðŠJŽn‚
 
 # ‘¼‚ÌPC‚ÅŽÀs‚·‚é‚½‚ß‚ÉƒpƒbƒP[ƒW‚ðƒrƒ‹ƒh
 
-‚à‚µ“®ì‚É–â‘è‚È‚¯‚ê‚ÎAProjectƒƒjƒ…[‚ÌuPublishv‚©‚çuCreate App Packages...v‚ð‘I‚Ñ‚Ü‚·B
+‚à‚µ“®ì‚É–â‘è‚È‚¯‚ê‚ÎAProjectƒƒjƒ…[‚ÌuPublishv‚©‚çuCreate App Packages...v‚ð‘I‚ñ‚ÅƒpƒbƒP[ƒW‚ðƒrƒ‹ƒh‚µ‚Ü‚·B
 
-‚±‚Ìƒ_ƒCƒAƒƒO‚ð—˜—p‚µ‚Ä Microsoft Store‚É’ño‚·‚é‚½‚ß‚ÌƒpƒbƒP[ƒW‚ðì¬‚µ‚½‚èAƒTƒCƒhƒ[ƒfƒBƒ“ƒO—p‚Ì.msixbundle ƒtƒ@ƒCƒ‹‚ðƒrƒ‹ƒh‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+‚±‚Ìƒ_ƒCƒAƒƒO‚ð—˜—p‚µ‚Ä Microsoft Store‚É’ño‚·‚é‚½‚ß‚ÌƒpƒbƒP[ƒW‚ðì¬‚µ‚½‚èAƒTƒCƒhƒ[ƒfƒBƒ“ƒO—p‚Ì.msixbundle ƒtƒ@ƒCƒ‹‚È‚Ç‚ðƒrƒ‹ƒh‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
 
 ƒTƒCƒhƒ[ƒfƒBƒ“ƒO—p‚ÌƒpƒbƒP[ƒW‚ðƒrƒ‹ƒh‚·‚éê‡AÝ’èƒ_ƒCƒAƒƒO‚ÅuSideloadingv‚ð‘I‘ð‚µ Next‚ðŽÀsB
 ŽŸ‚Ì‰æ–Ê‚Å–¼—p‚ÌØ–¾‘‚ðÝ’è‚µ‚Ü‚·BƒvƒƒWƒFƒNƒg’†‚É‚Í‚±‚¿‚ç‚Åì¬‚µ‚½ .pfxƒtƒ@ƒCƒ‹‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·‚ªAƒvƒƒWƒFƒNƒg‚©‚çíœ‚µ‚ÄV‹K‚É.pfx‚ðì¬‚·‚é‚±‚Æ‚à‰Â”\‚Å‚·BNext‚ð‰Ÿ‚µ‚Ü‚·B
@@ -101,7 +107,7 @@ Debug ƒƒjƒ…[‚©‚çuStart Debuggingv‚ð‘I‚Ô‚©AF5ƒL[‚ð‰Ÿ‚·‚ÆƒfƒoƒbƒOŽÀs‚ðŠJŽn‚
 
 uUWPDemo1_1.0.X.0_x86_x64_arm64.cerv‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚ÄŠJ‚­‚ÆAƒ_ƒCƒAƒƒO‚ª•\Ž¦‚³‚êuØ–¾‘‚ÌƒCƒ“ƒXƒg[ƒ‹...vƒ{ƒ^ƒ“‚ª•\Ž¦‚³‚ê‚é‚Ì‚ÅA‚±‚ê‚ðƒNƒŠƒbƒN‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·BƒCƒ“ƒXƒg[ƒ‹æ‚Í•K‚¸uƒ[ƒJƒ‹ƒRƒ“ƒsƒ…[ƒ^[v‚ÌuM—Š‚³‚ê‚½ƒ‹[ƒgØ–¾‹@ŠÖv‚ÌêŠ‚É‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 
-ƒCƒ“ƒXƒg[ƒ‹Œã‚ÉuƒRƒ“ƒsƒ…[ƒ^[Ø–¾‘‚ÌŠÇ—vŠÇ—ƒRƒ“ƒ\[ƒ‹ƒAƒvƒŠ‚ðŽÀs‚µAuM—Š‚³‚ê‚½ƒ‹[ƒgØ–¾‹@ŠÖv‚Ì‰º‚ÌuØ–¾‘v‚Ìˆê——‚Ì’†‚É”­sæ‚Æ”­sŽÒ‚ª‹¤‚Éuhronv‚É‚È‚Á‚Ä‚¢‚éØ–¾‘‚ªŒ©‚Â‚©‚é‚ÆŽv‚¢‚Ü‚·B‚±‚ÌƒeƒXƒg—pƒIƒŒƒIƒŒØ–¾‘‚Í—LŒøŠúŒÀ‚ª1”N‚ÉÝ’è‚³‚ê‚Ä‚¢‚é‚Ì‚ÅAØ–¾‚ª—LŒø‚È‚Ì‚ÍØ–¾‘¶¬ŒãAÅ‘å1”NŠÔ‚Æ‚¢‚¤‚±‚Æ‚É‚È‚è‚Ü‚·B
+ƒCƒ“ƒXƒg[ƒ‹Œã‚ÉuƒRƒ“ƒsƒ…[ƒ^[Ø–¾‘‚ÌŠÇ—vŠÇ—ƒRƒ“ƒ\[ƒ‹ƒAƒvƒŠ‚ðŽÀs‚µAuM—Š‚³‚ê‚½ƒ‹[ƒgØ–¾‹@ŠÖv‚Ì‰º‚ÌuØ–¾‘v‚Ìˆê——‚Ì’†‚É”­sæ‚Æ”­sŽÒ‚ª‹¤‚Éuhironv‚É‚È‚Á‚Ä‚¢‚éØ–¾‘‚ªŒ©‚Â‚©‚é‚ÆŽv‚¢‚Ü‚·B‚±‚ÌƒeƒXƒg—pƒIƒŒƒIƒŒØ–¾‘‚Í—LŒøŠúŒÀ‚ª1”N‚ÉÝ’è‚³‚ê‚Ä‚¢‚é‚Ì‚ÅAØ–¾‚ª—LŒø‚È‚Ì‚ÍØ–¾‘¶¬ŒãAÅ‘å1”NŠÔ‚Æ‚¢‚¤‚±‚Æ‚É‚È‚è‚Ü‚·B
 
 2. ƒAƒvƒŠ‚ðƒCƒ“ƒXƒg[ƒ‹
 
@@ -109,9 +115,9 @@ Debug ƒƒjƒ…[‚©‚çuStart Debuggingv‚ð‘I‚Ô‚©AF5ƒL[‚ð‰Ÿ‚·‚ÆƒfƒoƒbƒOŽÀs‚ðŠJŽn‚
 
 # LTSC‚Ìê‡‚ÌƒCƒ“ƒXƒg[ƒ‹•û–@
 
-uWindows 10 Enterprise LTSCv‚ÆuWindows 10 IoT Enterprise LTSCv‚Ìê‡‚ÍAƒAƒvƒŠƒCƒ“ƒXƒg[ƒ‰[Ž©‘Ì‚ª‘¶Ý‚µ‚È‚¢‚½‚ßAExplorer‚Å .msixbundle ƒtƒ@ƒCƒ‹‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚Ä‚à‰½‚à‹N‚«‚¸ƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚¹‚ñB
+uWindows 10 Enterprise LTSCv‚ÆuWindows 10 IoT Enterprise LTSCv‚Ìê‡‚ÍAOS‘¤‚ÉƒAƒvƒŠƒCƒ“ƒXƒg[ƒ‰[Ž©‘Ì‚ªŠÜ‚Ü‚ê‚Ä‚¢‚È‚¢‚½‚ßAExplorer‚Å .msixbundle ƒtƒ@ƒCƒ‹‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚Ä‚à‰½‚à‹N‚«‚¸ƒCƒ“ƒXƒg[ƒ‹o—ˆ‚Ü‚¹‚ñB
 
-‚±‚Ì‚æ‚¤‚Èê‡A**ŠÇ—ŽÒƒ‚[ƒh‚Ì** PowerShell‚ÅuAdd-AppxPackagevƒRƒ}ƒ“ƒh‚ð—˜—p‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚½‚¾‚µA‚±‚ÌŽè“®ƒCƒ“ƒXƒg[ƒ‹‚Ì•û–@‚Å‚ÍˆË‘¶ŠÖŒWƒ‚ƒWƒ…[ƒ‹‚àŽè“®‚ÅƒCƒ“ƒXƒg[ƒ‹‚·‚é•K—v‚ª‚ ‚è‚Ü‚·BˆÈ‰º‚ÌŽè‡‚ÅƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·B
+‚±‚Ì‚æ‚¤‚Èê‡A**ŠÇ—ŽÒƒ‚[ƒh‚Ì** PowerShell‚ÅuAdd-AppxPackagevƒRƒ}ƒ“ƒh‚ð—˜—p‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚½‚¾‚µA‚±‚ÌŽè“®ƒCƒ“ƒXƒg[ƒ‹‚Ì•û–@‚Å‚ÍˆË‘¶ŠÖŒWƒ‚ƒWƒ…[ƒ‹‚àŽè“®‚ÅŒÂ•Ê‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚é•K—v‚ª‚ ‚è‚Ü‚·BˆÈ‰º‚ÌŽè‡‚ÅƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·B
 
 1. ƒIƒŒƒIƒŒØ–¾‘ƒtƒ@ƒCƒ‹‚ÌƒCƒ“ƒXƒg[ƒ‹
 
@@ -144,7 +150,7 @@ Debug ƒƒjƒ…[‚©‚çuStart Debuggingv‚ð‘I‚Ô‚©AF5ƒL[‚ð‰Ÿ‚·‚ÆƒfƒoƒbƒOŽÀs‚ðŠJŽn‚
 ƒCƒ“ƒXƒg[ƒ‹Œã‚Íƒ^ƒXƒNƒo[‚ÌŒŸõ‚Å UWPDemo1 ‚ðŒŸõ‚µŽÀs‚µ‚Ü‚·B
 
 ‚½‚¾‚µALTSC‚Ìê‡uWindows ƒJƒƒ‰vƒAƒvƒŠ‚à‘¶Ý‚µ‚È‚¢‚½‚ßAuTake Picturev‚ðŽÀs‚µ‚Ä‚àƒJƒƒ‰‚Å‚ÌƒLƒƒƒvƒ`ƒƒ‚Í“®ì‚µ‚Ü‚¹‚ñB
-‰½‚ç‚©‚Ì•û–@‚ÅuWindows ƒJƒƒ‰vƒAƒvƒŠ‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚ê‚ÎuTake Picturev‚Í“®ì‚µ‚Ü‚·B
+‰½‚ç‚©‚Ì•û–@‚ÅuWindows ƒJƒƒ‰vƒAƒvƒŠ‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚ê‚ÎuTake Picturev‚Í“®ì‚µ‚Ü‚·B‚ ‚é‚¢‚Í (LTSC‚Å‚Í‚È‚­) SAC‚Å‚ ‚ê‚ÎMicrosoft Store‚¨‚æ‚ÑƒvƒŠƒCƒ“ƒXƒg[ƒ‹‚ÌStoreƒAƒvƒŠ‚à‘¶Ý‚·‚é‚Ì‚ÅA’Êí‚ÌWindows‚Æ“¯—l‚É“®ì‚µ‚Ü‚·B
 
 [Windows Camera ƒAƒvƒŠ](https://www.microsoft.com/store/productId/9WZDNCRFJBBG) 
 
@@ -157,6 +163,3 @@ Debug ƒƒjƒ…[‚©‚çuStart Debuggingv‚ð‘I‚Ô‚©AF5ƒL[‚ð‰Ÿ‚·‚ÆƒfƒoƒbƒOŽÀs‚ðŠJŽn‚
 ---
 
 [README.md] version 1.0.4 / 2022”N9ŒŽ
-
-
-
