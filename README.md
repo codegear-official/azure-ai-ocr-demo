@@ -167,7 +167,7 @@ https://github.com/codegear-official/azure-ai-ocr-demo/releases/download/1.0.4.0
 
 # YouTubeビデオ
 
-このプロジェクトは通常のWindows10/11 の x86/x64/ARM64 版で動作可能ですが、NXP社のi.MX8M PLUS評価ボードで動作している Windows 10 IoT Enterprise 21H2 (ARM64)で動かすビデオを制作してYouTubeに公開しました。以下からアクセスしてみて下さい。
+このプロジェクトのパッケージは通常のWindows10/11 の x86/x64/ARM64 版にインストールして実行可能ですが、NXP社のi.MX8M PLUS評価ボードで動作している Windows 10 IoT Enterprise 21H2 (ARM64)の上で動かすデモ映像を制作しました。以下のリンクからアクセスしてみて下さい。
 
 https://youtu.be/s8l6BN3Ojog
 
