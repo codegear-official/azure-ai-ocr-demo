@@ -165,6 +165,12 @@ https://github.com/codegear-official/azure-ai-ocr-demo/releases/download/1.0.4.0
 
 [Windows 10 長期サービス チャネル (LTSC) 次期リリースについて](https://blogs.windows.com/japan/2021/02/25/the-next-windows-10-long-term-servicing-channel-ltsc-release/)
 
+# YouTubeビデオ
+
+このプロジェクトは通常のWindows10/11 の x86/x64/ARM64 版で動作可能ですが、NXP社のi.MX8M PLUS評価ボードで動作している Windows 10 IoT Enterprise 21H2 (ARM64)で動かすビデオを制作してYouTubeに公開しました。以下からアクセスしてみて下さい。
+
+https://youtu.be/s8l6BN3Ojog
+
 # アンインストール方法
 
 「設定」アプリの「アプリと機能」で検索欄に UWPDemo1 を入力して検索して見つけた後、「アンインストール」を選択してアンインストールします。
