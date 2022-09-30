@@ -8,7 +8,7 @@ C# 記述のUWPプロジェクトで、.NET Native により x86/x64/ARM64 の .
 
 # 開発環境
 
-Windows 10 version 21H2 (64bit) 上に Visual Studio 2019 version 16.11 をインストールして開発しました。
+Windows 10 version 21H2 (64bit)をインストールした開発PC上に Visual Studio 2019 version 16.11 をインストールして開発しました。
 
 もしVisual Studio 2019 Comunity Editionを利用したい場合は、現在通常の [Visual Studio Community のページ](https://visualstudio.microsoft.com/ja/vs/community/)からはダウンロードできなくなっています。
 無料のVisual Studio Dev Essentials プログラムに加入すると、Visual Studio Subscriptionサイトからダウンロード可能なので試してみてください。
@@ -22,7 +22,7 @@ https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019
 Visual Studio Installer では ワークロードとして「ユニバーサルWindowsプラットフォーム開発」「.NETデスクトップ開発」を選択します。
 また、個別のコンポーネントとして「Git for Windows」を選んでインストールしておくと便利です。
 
-このドキュメントではメニューなどのUIを英語で表示しています。またMS Learnのページなど、未翻訳のページでは英語版UIで説明されます。
+このドキュメントではメニューなどのUI項目を英語で表示しています。またMS Learnのページなど、未翻訳のページでは英語版UIで説明されます。
 もし英語表示を行う場合には「言語パック」で「英語」を追加してインストールした後、Visual Studio IDEの Toolsメニューの Options で国別設定を表示し、Englishを選んでIDEを再起動すると英語UIになります。
 
 # Azure ポータルでリソースを作成し、ENDPOINT情報とKEY情報を取得する
@@ -97,7 +97,7 @@ Debug メニューから「Start Debugging」を選ぶか、F5キーを押すと
 
 - UWPDemo1_1.0.X.0_x86_x64_arm64.msixbundle : インストール可能なパッケージファイル
 - UWPDemo1_1.0.X.0_x86_x64_arm64.cer : 証明書ファイル (いわゆるオレオレ証明書)
-- UWPDemo1_1.0.4.0_XXX.appxsym : デバッグシンボルファイル
+- UWPDemo1_1.0.X.0_XXX.appxsym : デバッグシンボルファイル
 - Dependencies : 依存モジュールの含まれるディレクトリ
 
 もしビルド済みのバイナリパッケージを参照したい場合は、以下の Releases からダウンロードすることも可能です。
